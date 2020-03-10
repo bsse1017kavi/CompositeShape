@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="573.0" prefWidth="432.0">
+         <children>
+            <Button fx:id="button1" layoutX="175.0" layoutY="85.0" mnemonicParsing="false" onAction="#drawLine" prefHeight="49.0" prefWidth="83.0" text="Line" />
+            <Button fx:id="button2" layoutX="175.0" layoutY="166.0" mnemonicParsing="false" onAction="#drawCircle" prefHeight="49.0" prefWidth="83.0" text="Circle" />
+            <Button fx:id="button3" layoutX="175.0" layoutY="253.0" mnemonicParsing="false" onAction="#drawRectangle" prefHeight="49.0" prefWidth="83.0" text="Rectangle" />
+            <Button fx:id="button4" layoutX="175.0" layoutY="354.0" mnemonicParsing="false" onAction="#drawFlag" prefHeight="49.0" prefWidth="83.0" text="Flag" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
